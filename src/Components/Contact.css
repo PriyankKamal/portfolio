@@ -1,0 +1,203 @@
+.contact {
+  width: 100%;
+  height: 100vh;
+  background: rgb(52, 60, 5);
+
+  background-image: linear-gradient(
+    45deg,
+    hsl(189deg 100% 12%) 0%,
+    hsl(194deg 96% 11%) 9%,
+    hsl(200deg 83% 11%) 18%,
+    hsl(208deg 66% 10%) 27%,
+    hsl(216deg 53% 9%) 36%,
+    hsl(216deg 47% 9%) 45%,
+    hsl(217deg 41% 8%) 55%,
+    hsl(217deg 35% 8%) 64%,
+    hsl(210deg 38% 9%) 73%,
+    hsl(202deg 53% 11%) 82%,
+    hsl(195deg 74% 12%) 91%,
+    hsl(189deg 100% 12%) 100%
+  );
+  position: relative;
+  /* display: flex; */
+  /* background-color: rgb(71, 133, 179); */
+}
+/* .contact .custom-shape-divider-bottom-1722508449 {
+    position: absolute; 
+    bottom: 0;
+    left: 0;
+    width: 145%;
+    overflow: hidden;
+    line-height: 0; 
+    background-color: aquamarine;
+} */
+.contact > h1 {
+  text-align: center;
+  padding: 20px 0px;
+  font-size: 3.72rem;
+  font-weight: 400;
+  font-family: "Montserrat";
+  /* font-family: "Ga Maamli"; */
+}
+
+.form {
+  width: 100%;
+  /* height: 500px; */
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid blue; */
+  /* display: flex; */
+  /* grid-template-columns: 2fr 3fr; */
+  /* justify-content: space-evenly; */
+  padding: 0px 1vw;
+  /* gap: 2vw; */
+  /* flex-direction: column-reverse; */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  /* border: 2px solid red; */
+  /* padding: 4vw 2vw; */
+  padding: 60px 31px;
+  width: 28vw;
+  min-width: 416px;
+  justify-content: center;
+  border-radius: 5px; 
+  box-shadow: 0px 0px 4px 1px rgb(0, 174, 255);
+
+  background-image: linear-gradient(
+    45deg,
+    hsl(240deg 75% 8%) 0%,
+    hsl(207deg 100% 10%) 10%,
+    hsl(196deg 100% 12%) 19%,
+    hsl(184deg 100% 13%) 29%,
+    hsl(178deg 72% 16%) 39%,
+    hsl(185deg 99% 14%) 48%,
+    hsl(190deg 100% 15%) 58%,
+    hsl(196deg 79% 17%) 67%,
+    hsl(194deg 90% 15%) 75%,
+    hsl(190deg 100% 12%) 84%,
+    hsl(184deg 100% 10%) 92%,
+    hsl(177deg 91% 9%) 100%
+  );
+}
+
+iframe {
+  border-radius: 4px;
+  /* box-shadow: 0px 0px 2px  whitesmoke; */
+  width: 100%;
+  height: 17vh;
+}
+
+.form-input .MuiOutlinedInput-root .Mui-focused fieldset {
+  border-color: rgb(211, 15, 15); /* Border color when focused */
+  color: rgb(255, 230, 0);
+  /* width: 80% !important; */
+}
+.form-input .MuiOutlinedInput-root fieldset {
+  border: 2px solid rgb(181, 189, 181); /* Default border color */
+  /* width: 80% !important; */
+}
+.form-input .MuiOutlinedInput-root:hover fieldset {
+  border-color: rgb(172, 168, 225); /* Border color on hover */
+}
+
+.form-input-label {
+  color: rgb(255, 254, 254) !important;
+  /* border: 2px solid yellow */
+}
+
+.form-input .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+  color: rgb(206, 253, 250);
+}
+
+textarea {
+  color: rgb(206, 253, 250) !important;
+}
+form .css-sghohy-MuiButtonBase-root-MuiButton-root {
+  width: 100%;
+}
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 13.5px 14px !important;
+}
+
+.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+  margin-bottom: 3px !important;
+}
+
+@media (max-width: 768px) {
+  .contact > h1 {
+    font-size: 3.3rem;
+  }
+
+  form .css-sghohy-MuiButtonBase-root-MuiButton-root {
+    width: 100%;
+  }
+}
+
+@media (max-width: 488px) {
+  form {
+    padding: 60px 31px;
+    width: 28vw;
+    min-width: 360px;
+    height: 444px;
+}
+.form-input .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+  /* color: rgb(206, 253, 250); */
+  width: 301px !important;
+}
+
+/* .form-input-label{
+  width: 301px !important;
+} */
+form .css-sghohy-MuiButtonBase-root-MuiButton-root {
+  width: 301px !important;
+}
+
+form .css-1u3bzj6-MuiFormControl-root-MuiTextField-root{
+  width: 301px !important;
+}
+}
+
+@media (max-width: 430px) {
+  .contact > h1 {
+    font-size: 2.7rem;
+  }
+  form {
+    padding: 35px 27px;
+    width: 28vw;
+    min-width: 332px;
+}
+.form-input .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+  width: 277px !important;
+}
+form .css-sghohy-MuiButtonBase-root-MuiButton-root {
+  width: 277px !important;
+}
+
+form .css-1u3bzj6-MuiFormControl-root-MuiTextField-root{
+  width: 277px !important;
+}
+
+}
+
+@media (max-width:348px) {
+  form {
+    padding: 35px 12px;
+    min-width: 300px;
+}
+  
+}
+
+
+@media (max-width: 330px) {
+  .contact > h1 {
+    font-size: 2rem;
+  }
+}
+

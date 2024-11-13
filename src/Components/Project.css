@@ -1,0 +1,252 @@
+.project {
+  /* height: 100vh; */
+  width: 100%; 
+  /* background-color: black; */
+  background: linear-gradient(
+    to right,
+    rgb(1, 22, 1),
+    rgb(0, 33, 0),
+    rgb(2, 26, 2)
+  );
+}
+.project > h1 {
+  text-align: center;
+  padding: 20px 0px;
+  font-size: 3.72rem;
+  font-weight: 400;
+  font-family: "Montserrat";
+}
+.project h1 span {
+  font-family: "Montserrat";
+  color: #8fff86;
+}
+
+.project-box {
+  width: 100%;
+  height: 100%;
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.p-box1 {
+  height: 35vh;
+  width: 70vw;
+  /* background-color: black; */
+  /* background: linear-gradient(to right,rgb(2, 45, 2),rgb(2, 61, 2),rgb(2, 45, 2)); */
+
+  background: linear-gradient(rgb(1, 37, 12), black, rgb(3, 36, 1));
+  border: 1px solid #ffffff5a;
+  border-radius: 5px;
+ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  /* margin-top: 22px; */
+  margin-bottom: 22px;
+}
+.p-box-child {
+  /* width: 34vw; */
+  height: 24vh;
+  /* background-color: orchid; */
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+  gap: 20px;
+}
+
+.project-name {
+  margin-top: 14px;
+}
+
+.project-heading {
+  font-size: 2.3rem;
+}
+.project-heading-box {
+  display: flex;
+  gap: 3px;
+  margin-top: 12px;
+}
+
+.pb-box-1 {
+  border: 1px solid rgba(255, 255, 255, 0.277);
+  padding: 5px 11px;
+  width: fit-content;
+  border-radius: 14px;
+}
+
+.pb-box-1 p {
+  font-size: 0.99rem;
+  color: rgb(160, 158, 158);
+}
+
+.numb {
+  font-family: monospace;
+  font-size: 1.2rem;
+  color: rgb(182, 178, 178);
+  margin-bottom: 33px;
+}
+
+.p-year p {
+  font-family: monospace;
+  font-size: 1.2rem;
+  color: rgb(182, 178, 178);
+}
+
+/* .proj-img{
+    width: 19vw;
+    object-fit: cover;
+    border: 1px solid white;
+    border-radius: 10px;
+} */
+
+@media (max-width: 768px) {
+  .project > h1 {
+    padding-top: 20px;
+    font-size: 3.3rem;
+    font-weight: 500;
+  }
+
+  .p-box1 {
+    height: 30vh;
+    width: 73vw;
+    padding: 0px 20px;
+    margin-top: 25px;
+  }
+  .project-heading {
+    font-size: 2rem;
+  }
+
+  .numb {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+  .p-year p {
+    font-size: 1rem;
+  }
+  .pb-box-1 p {
+    font-size: 0.85rem;
+  }
+
+  .project-heading-box {
+    display: flex;
+    gap: 5px;
+    margin-top: 12px;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 570px) {
+  .project > h1 {
+    padding-top: 20px;
+    font-size: 3.3rem;
+    font-weight: 500;
+  }
+
+  .p-box1 {
+    height: 26vh;
+    width: 73vw;
+    padding: 0px 10px;
+    margin-top: 0px;
+  }
+  .project-heading {
+    font-size: 1.5rem;
+  }
+
+  .numb {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+  .p-year p {
+    font-size: 1rem;
+  }
+  .pb-box-1 p {
+    font-size: 0.85rem;
+  }
+
+  .project-heading-box {
+    display: flex;
+    gap: 5px;
+    margin-top: 12px;
+  }
+  .p-box-child {
+    display: flex;
+    align-items: center;
+    padding: 0px 0px;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 430px) {
+  .project > h1 {
+    font-size: 2.7rem;
+  }
+
+  .pb-box-1 {
+    padding: 4px 8px;
+    width: fit-content;
+    border-radius: 11px;
+    /* height: 23vh;
+    width: 79vw;
+    padding: 3px 10px; */ 
+    /* margin-top: 24px; */
+  }
+  .pb-box-1 p {
+    font-size: 0.65rem;
+  }
+
+  .p-box1 {
+    height: 22vh;
+    width: 82vw;
+    padding: 0px 10px;
+    /* margin-top: 24px; */
+}
+
+.numb {
+    font-size: 0.8rem;
+    margin-bottom: 30px;
+  }
+  .p-year p {
+    font-size: 0.8rem;
+  }
+  .project-name {
+    margin-top: 3px;
+}
+}
+
+
+@media (max-width: 330px) {
+    .project > h1 {
+      font-size: 2rem;
+    }
+  
+    .project-heading {
+        font-size: 6vw;
+        /* {
+            position: relative;
+            top: -50px;
+        } */
+    }
+ 
+    .numb {
+        font-size: 0.8rem;
+        margin-bottom: 30px;
+        position: relative;
+            top: -44px;
+      }
+      .p-year p {
+        font-size: 0.8rem;
+        position: relative;
+            top: -50px;
+      }
+
+      .project-name {
+        /* margin-top: 3px; */
+        position: relative;
+        /* left: inherit; */
+        right: 13%;
+        top: 1%;
+    }
+  }
